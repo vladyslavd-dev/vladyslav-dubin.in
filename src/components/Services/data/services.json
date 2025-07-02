@@ -1,0 +1,198 @@
+{
+    "rus": {
+        "Разработка сайтов под ключ": {
+            "name": "Разработка сайтов под ключ",
+            "iconName": "lion",
+            "stack": [
+                "Лендинги",
+                "WordPress",
+                "Сайты на React",
+                "Интеграция с API и backend"
+            ]
+        },
+        "Фронтенд-разработка": {
+            "name": "Фронтенд-разработка",
+            "iconName": "heraldicLily",
+            "stack": [
+                "Адаптивные макеты",
+                "Pixel-perfect верстка",
+                "SPA-сайты",
+                "Анимации",
+                "Параллакс-эффекты",
+                "Плавный скролл"
+            ]
+        },
+        "Продвинутые веб-интеграции": {
+            "name": "Интеграции",
+            "iconName": "bird",
+            "stack": [
+                "Формы обратной связи",
+                "Настройка аналитики",
+                "Боты Telegram",
+                "Почтовые системы",
+                "Внутренние CRM",
+                "Дашборды",
+                "Админ-панели",
+                "Пользовательские кабинеты"
+            ]
+        },
+        "Консалтинг": {
+            "name": "Консалтинг",
+            "iconName": "shuriken",
+            "stack": [
+                "Аудит сайтов",
+                "Менторство",
+                "Сопровождение проектов",
+                "Оптимизация производительности и скорости",
+                "Техническая поддержка"
+            ]
+        }
+    },
+    "eng": {
+        "Full-Cycle Website Development": {
+            "name": "Full-Cycle Website Development",
+            "iconName": "lion",
+            "stack": [
+                "Landing pages",
+                "WordPress",
+                "React-based websites",
+                "API and backend integrations"
+            ]
+        },
+        "Frontend Development": {
+            "name": "Frontend Development",
+            "iconName": "heraldicLily",
+            "stack": [
+                "Responsive layouts",
+                "Pixel-perfect development",
+                "SPA websites",
+                "Animations",
+                "Parallax effects",
+                "Smooth scrolling"
+            ]
+        },
+        "Advanced Web Integrations": {
+            "name": "Custom Integrations",
+            "iconName": "bird",
+            "stack": [
+                "Forms",
+                "Analytics setup",
+                "Telegram bots",
+                "Mailing systems",
+                "Internal CRMs",
+                "Dashboards",
+                "Admin panels",
+                "User portals"
+            ]
+        },
+        "Consulting": {
+            "name": "Consulting",
+            "iconName": "shuriken",
+            "stack": [
+                "Website audits",
+                "Mentorship",
+                "Project guidance",
+                "Performance & Speed Optimization",
+                "Ongoing Maintenance"
+            ]
+        }
+    },
+    "czk": {
+        "Kompletní vývoj webových stránek na klíč": {
+            "name": "Kompletní vývoj webových stránek na klíč",
+            "iconName": "lion",
+            "stack": [
+                "Landing pages",
+                "WordPress",
+                "Weby postavené na Reactu",
+                "Integrace API a backendu"
+            ]
+        },
+        "Frontend vývoj": {
+            "name": "Frontend vývoj",
+            "iconName": "heraldicLily",
+            "stack": [
+                "Responzivní rozvržení",
+                "Pixel-perfect vývoj",
+                "SPA weby",
+                "Animace",
+                "Parallax efekty",
+                "Plynulé scrollování"
+            ]
+        },
+        "Pokročilé webové integrace": {
+            "name": "Vlastní integrace",
+            "iconName": "bird",
+            "stack": [
+                "Formuláře",
+                "Nastavení analytiky",
+                "Telegram boti",
+                "E-mailové systémy",
+                "Interní CRM",
+                "Dashboardy",
+                "Administrační panely",
+                "Uživatelské portály"
+            ]
+        },
+        "Konzultace": {
+            "name": "Konzultace",
+            "iconName": "shuriken",
+            "stack": [
+                "Audit webových stránek",
+                "Mentoring",
+                "Vedení projektů",
+                "Optimalizace výkonu a rychlosti",
+                "Pravidelná údržba"
+            ]
+        }
+    },
+    "ukr": {
+        "Розробка сайту під ключ": {
+            "name": "Розробка сайту під ключ",
+            "iconName": "lion",
+            "stack": [
+                "Лендінги",
+                "WordPress",
+                "Сайти на базі React",
+                "Інтеграція API та бекенду"
+            ]
+        },
+        "Фронтенд-розробка": {
+            "name": "Фронтенд-розробка",
+            "iconName": "heraldicLily",
+            "stack": [
+                "Адаптивна верстка",
+                "Піксельна точність",
+                "SPA-сайти",
+                "Анімації",
+                "Ефекти паралаксу",
+                "Плавне прокручування"
+            ]
+        },
+        "Розширені веб-інтеграції": {
+            "name": "Кастомні інтеграції",
+            "iconName": "bird",
+            "stack": [
+                "Форми",
+                "Налаштування аналітики",
+                "Боти Telegram",
+                "Системи розсилок",
+                "Внутрішні CRM",
+                "Дашборди",
+                "Адмін-панелі",
+                "Кабінети користувача"
+            ]
+        },
+        "Консультації": {
+            "name": "Консультації",
+            "iconName": "shuriken",
+            "stack": [
+                "Аудит сайту",
+                "Менторство",
+                "Супровід проєктів",
+                "Оптимізація швидкодії",
+                "Підтримка та обслуговування"
+            ]
+        }
+    }
+}

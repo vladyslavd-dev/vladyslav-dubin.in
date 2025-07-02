@@ -1,0 +1,56 @@
+@use '@/css/variables.scss' as vars;
+
+.button {
+    padding: var(--buttonPadding);
+    border: none;
+    background-color: var(--colorSecondary);
+    @include vars.navigation;
+    color: var(--colorGray);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: 0.5s ease all;
+    text-transform: capitalize;
+
+    &.dark {
+        color: var(--colorWhite);
+        background-color: var(--colorBlack);
+
+        &:hover {
+            color: var(--colorGray);
+            background-color: var(--colorWhite);
+        }
+    }
+
+    &.white {
+        padding: 4px;
+        color: var(--colorGray);
+        background-color: var(--colorWhite);
+        @include vars.bodyXS;
+        cursor: auto;
+        pointer-events: none;
+    }
+
+    &.transparent {
+        padding: 0;
+        background-color: transparent;
+        color: var(--colorGray);
+    }
+
+    &.gray {
+        background-color: var(--colorBackground);
+        color: var(--colorGray);
+
+        &:hover {
+            background-color: #F7F7F7;
+        }
+    }
+
+    &.grayDark {
+        background-color: var(--colorSecondary);
+        color: var(--colorGray);
+
+        &:hover {
+            background-color: var(--colorWhite);
+        }
+    }
+}

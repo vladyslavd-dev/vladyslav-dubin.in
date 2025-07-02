@@ -1,0 +1,88 @@
+@use '@/css/variables.scss' as vars;
+
+.about {
+    display: flex;
+    gap: 40px;
+    padding-block: var(--sectionPadding);
+    padding-inline: 2px;
+
+    .textSmall {
+        display: flex;
+        gap: 20px;
+    }
+
+    .text {
+        @include vars.bodyM;
+        color: var(--colorBodyText);
+        margin-top: 20px;
+    }
+}
+
+.gennadiy {
+    padding-block: var(--sectionPadding);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .gennadiyText {
+        width: calc(50% - 10px);
+    }
+
+    .title {
+        @include vars.fontTitle;
+        margin-bottom: 1em;
+
+        &:last-of-type {
+            span {
+                color: var(--colorBodyText);
+            }
+
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media (max-width: vars.$tabletSize) {
+    .about {
+        flex-direction: column;
+
+        h2 {
+            margin-bottom: 363px;
+        }
+    }
+
+    .gennadiy {
+        img {
+            width: 256px;
+        }
+    }
+}
+
+@media (max-width: vars.$mobileSize) {
+    .about {
+        gap: 20px;
+
+        .textSmall {
+            gap: 12px;
+        }
+
+        .text {
+            margin-top: 16px;
+        }
+    }
+
+    .gennadiy {
+        .gennadiyText {
+            width: calc(50% - 6px);
+
+            p {
+                font-size: 20px;
+                letter-spacing: -0.2px;
+            }
+        }
+
+        img {
+            width: calc(50% - 47px);
+        }
+    }
+}

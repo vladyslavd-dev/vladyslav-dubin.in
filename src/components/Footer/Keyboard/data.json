@@ -1,0 +1,37 @@
+{
+    "Telegram": {
+        "name": "Telegram",
+        "link": "https://t.me/Vladyslavdubinin_dev",
+        "size": "small"
+    },
+    "LinkedIn": {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/vladyslav-dubinin/",
+        "size": "small"
+    },
+    "GitHub": {
+        "name": "GitHub",
+        "link": "https://github.com/vladyslavd-dev",
+        "size": "small"
+    },
+    "Contact": {
+        "name": "Contact",
+        "link": "#contact",
+        "size": "big"
+    },
+    "CV": {
+        "name": "CV",
+        "link": "CV",
+        "size": "small"
+    },
+    "Privacy policy": {
+        "name": "Privacy policy",
+        "link": "privacy",
+        "size": "small"
+    },
+    "Email": {
+        "name": "Email",
+        "link": "mailto:hello@vladyslav-dubin.in",
+        "size": "small"
+    }
+}

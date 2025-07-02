@@ -1,0 +1,39 @@
+.container {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: calc(100dvh);
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    min-width: 402px;
+}
+
+.mobileMenu {
+    position: absolute;
+    width: calc(100% - 32px);
+    height: calc(100% - 32px);
+    background-color: var(--colorBackground);
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: 0.3s ease all;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+    padding: 16px;
+    z-index: 20;
+
+    &.active {
+        transform: translateX(0);
+    }
+}
+
+.container.active {
+    pointer-events: all;
+
+    .mobileMenu {
+        transform: translateX(0);
+    }
+}

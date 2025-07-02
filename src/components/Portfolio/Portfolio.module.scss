@@ -1,0 +1,128 @@
+@use '@/css/variables.scss' as vars;
+
+.stillCoding {
+    display: flex;
+    padding-block: var(--sectionPadding);
+    gap: 20px;
+    padding-inline: 2px;
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    .textContainer {
+        background-color: var(--colorWhite);
+        padding: var(--textBlockPadding);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        p {
+            @include vars.fontTitle;
+            text-align: justify;
+
+            strong {
+                color: var(--colorBodyText);
+            }
+        }
+    }
+
+    .mainText {
+        display: flex;
+        gap: 20px;
+
+        p {
+            color: var(--colorBodyText);
+            margin-top: 20px;
+            @include vars.bodyM;
+        }
+    }
+}
+
+.portfolio {
+    padding-block: var(--sectionPadding);
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 72px;
+
+        button {
+            text-transform: none;
+        }
+    }
+
+    .worksGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        width: 100%;
+        height: auto;
+        animation: none;
+        transition: 0.3s ease all;
+
+        &.animateBlur {
+            animation: portfolioGridChange 1s ease forwards;
+        }
+    }
+
+    &.list {
+        .worksGrid {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+    }
+}
+
+@media ((min-height: 900px) and (min-width: vars.$mobileSize)) {
+    .stillCoding {
+        padding-bottom: var(--stickySectionPadding);
+    }
+}
+
+@media (max-width: vars.$tabletSize) {
+    .stillCoding {
+        display: none;
+    }
+
+    .portfolio {
+        .worksGrid {
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: vars.$mobileSize) {
+    .portfolio {
+        .worksGrid {
+            gap: 12px;
+        }
+    }
+}
+
+@keyframes portfolioGridChange {
+    0% {
+        filter: blur(0);
+    }
+
+    50% {
+        filter: blur(200px);
+    }
+
+    100% {
+        filter: blur(0);
+    }
+}

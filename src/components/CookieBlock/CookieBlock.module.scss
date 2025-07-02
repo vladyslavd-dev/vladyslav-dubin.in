@@ -1,0 +1,109 @@
+@use '@/css/variables.scss' as vars;
+
+.cookieBlock {
+    opacity: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100dvW;
+    height: 100dvh;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    animation: cookieBlock 0.6s ease forwards;
+    animation-delay: 1.8s;
+
+    .banner {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 1396px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        background-color: var(--colorWhite);
+        left: 50%;
+        transform: translateX(-50%) translateY(100%);
+        animation: cookieBaner 0.6s ease forwards;
+        animation-delay: 2.3s;
+        @include vars.fontH3;
+        padding-block: var(--textBlockPadding);
+        padding-inline: 30px;
+
+        span {
+            opacity: 1;
+            filter: blur(0);
+            transform: translateY(0) !important;
+        }
+    }
+
+    &.accepted {
+        opacity: 1;
+        animation: cookieBlockReverse 0.6s ease forwards;
+        animation-delay: 0.5s;
+
+        .banner {
+            transform: translateX(-50%) translateY(0);
+            animation: cookieBanerReverse 0.6s ease forwards;
+            animation-delay: 0;
+        }
+    }
+}
+
+@keyframes cookieBlock {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes cookieBaner {
+    0% {
+        transform: translateX(-50%) translateY(100%);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+@keyframes cookieBlockReverse {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes cookieBanerReverse {
+    0% {
+        transform: translateX(-50%) translateY(0);
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(100%);
+    }
+}
+
+
+@media (max-width: vars.$tabletSize) {
+    .cookieBlock {
+        .banner {
+            width: calc(100% - 80px);
+        }
+    }
+}
+
+@media (max-width: vars.$mobileSize) {
+    .cookieBlock {
+        .banner {
+            width: calc(100% - 64px);
+            gap: 24px;
+        }
+    }
+}

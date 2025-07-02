@@ -1,0 +1,36 @@
+.fadeText {
+    transition: all 0.5s ease;
+    opacity: 1;
+
+    .wordNowrap {
+        white-space: nowrap;
+    }
+
+    .word {
+        display: inline-block;
+        opacity: 0;
+        filter: blur(4px);
+        transition: 0.6s ease all;
+        will-change: opacity, transform, filter;
+        white-space: nowrap;
+
+        &.title {
+            transform: translateY(80%);
+
+            &.visible {
+                transform: translateY(0);
+            }
+        }
+
+        &.visible {
+            opacity: 1;
+            filter: blur(0);
+        }
+    }
+}
+
+.blur {
+    filter: blur(10px);
+    opacity: 0.1;
+    transition: all 0.5s ease;
+}

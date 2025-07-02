@@ -1,0 +1,42 @@
+@use '@/css/variables.scss' as vars;
+
+.header {
+    padding-block: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+
+    .title {
+        @include vars.fontH3;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .extraMenu {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .showMobile {
+        display: none;
+    }
+}
+
+@media (max-width: vars.$mobileSize) {
+    .header {
+        .showMobile {
+            display: block;
+
+            button {
+                padding: var(--buttonPadding);
+            }
+        }
+
+        .hideMobile {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,708 @@
+.icon {
+    * {
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        transform-origin: center;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+    }
+}
+
+.icon {
+    &.pigeon {
+        path:nth-of-type(1) {
+            animation-name: pigeon;
+        }
+
+        @keyframes pigeon {
+            0% {
+                transform: rotate(0);
+            }
+
+            15% {
+                transform: rotate(-23deg);
+            }
+
+            37% {
+                transform: rotate(10deg);
+            }
+
+            52% {
+                transform: rotate(-23deg);
+            }
+
+            75% {
+                transform: rotate(0);
+            }
+        }
+    }
+
+    &.swords {
+        position: relative;
+
+        .sword2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: rotate(16deg);
+            animation-name: swordsAnimation2;
+        }
+
+        .sword1 {
+            transform: rotate(-16deg);
+            animation-name: swordsAnimation;
+        }
+
+        @keyframes swordsAnimation {
+            0% {
+                transform: rotate(-16deg) translateX(0);
+            }
+
+            22% {
+                transform: rotate(4deg) translateX(-15%);
+            }
+
+            30% {
+                transform: rotate(0);
+            }
+
+            60% {
+                transform: rotate(-20deg);
+            }
+
+            75% {
+                transform: rotate(-16deg) translateX(15%);
+            }
+        }
+
+        @keyframes swordsAnimation2 {
+            0% {
+                transform: rotate(16deg);
+            }
+
+            22% {
+                transform: rotate(-4deg) translateX(15%);
+            }
+
+            30% {
+                transform: rotate(0);
+            }
+
+            60% {
+                transform: rotate(20deg);
+            }
+
+            75% {
+                transform: rotate(16deg) translateX(15%);
+            }
+        }
+    }
+
+    &.flower {
+        path:nth-of-type(2) {
+            animation-name: flower1;
+        }
+
+        path:nth-of-type(3) {
+            animation-name: flower2;
+        }
+
+        path:nth-of-type(5) {
+            animation-name: flower3;
+        }
+
+        path:nth-of-type(6) {
+            animation-name: flower4;
+        }
+
+        @keyframes flower1 {
+            0% {
+                transform: rotate(0) translateX(0) translateY(0);
+            }
+
+            15% {
+                transform: rotate(-45deg) translateX(-10%) translateY(-10%);
+            }
+
+            75% {
+                transform: rotate(0) translateX(0) translateY(0);
+            }
+        }
+
+        @keyframes flower2 {
+            0% {
+                transform: rotate(0) translateX(0) translateY(0);
+            }
+
+            15% {
+                transform: rotate(45deg) translateX(10%) translateY(-10%);
+            }
+
+            75% {
+                transform: rotate(0) translateX(0) translateY(0);
+            }
+        }
+
+        @keyframes flower3 {
+            0% {
+                transform: rotate(0) translateX(0) translateY(0);
+            }
+
+            15% {
+                transform: rotate(25deg) translateX(10%) translateY(-10%);
+            }
+
+            75% {
+                transform: rotate(0) translateX(0) translateY(0);
+            }
+        }
+
+        @keyframes flower4 {
+            0% {
+                transform: rotate(0) translateX(0) translateY(0);
+            }
+
+            15% {
+                transform: rotate(-25deg) translateX(-10%) translateY(-10%);
+            }
+
+            75% {
+                transform: rotate(0) translateX(0) translateY(0);
+            }
+        }
+    }
+
+    &.cicada {
+        path:nth-of-type(2) {
+            animation-name: cicadaAnimationLeftTop;
+        }
+
+        path:nth-of-type(3) {
+            animation-name: cicadaAnimationRightTop;
+        }
+
+        path:nth-of-type(4) {
+            animation-name: cicadaAnimationLeftBottom;
+        }
+
+        path:nth-of-type(5) {
+            animation-name: cicadaAnimationRightBottom;
+        }
+
+        @keyframes cicadaAnimationLeftTop {
+            0% {
+                transform: rotate(0);
+            }
+
+            15% {
+                transform: rotate(-45deg);
+            }
+
+            30% {
+                transform: rotate(10deg);
+            }
+
+            45% {
+                transform: rotate(-45deg);
+            }
+
+            75% {
+                transform: rotate(0);
+            }
+        }
+
+        @keyframes cicadaAnimationRightTop {
+            0% {
+                transform: rotate(0);
+            }
+
+            15% {
+                transform: rotate(45deg);
+            }
+
+            30% {
+                transform: rotate(-10deg);
+            }
+
+            45% {
+                transform: rotate(45deg);
+            }
+
+            75% {
+                transform: rotate(0);
+            }
+        }
+
+        @keyframes cicadaAnimationLeftBottom {
+            0% {
+                transform: rotate(0);
+            }
+
+            22% {
+                transform: rotate(45deg);
+            }
+
+            30% {
+                transform: rotate(-10deg);
+            }
+
+            52% {
+                transform: rotate(45deg);
+            }
+
+            75% {
+                transform: rotate(0);
+            }
+        }
+
+        @keyframes cicadaAnimationRightBottom {
+            0% {
+                transform: rotate(0);
+            }
+
+            22% {
+                transform: rotate(-45deg);
+            }
+
+            30% {
+                transform: rotate(10deg);
+            }
+
+            52% {
+                transform: rotate(-45deg);
+            }
+
+            75% {
+                transform: rotate(0);
+            }
+        }
+    }
+
+    &.lion {
+        path:nth-of-type(3) {
+            animation-name: lion;
+        }
+
+        path:nth-of-type(2) {
+            animation-name: lion2;
+        }
+
+        @keyframes lion {
+            0% {
+                transform: scale(1) rotate(0) translateY(0);
+            }
+
+            37% {
+                transform: scale(1.1) rotate(-15deg) translateY(-2%);
+            }
+
+            52% {
+                transform: scale(1) rotate(0) translateY(0);
+            }
+
+            67% {
+                transform: scale(1.1) rotate(-15deg) translateY(-2%);
+            }
+
+            75% {
+                transform: scale(1) rotate(0) translateY(0);
+            }
+        }
+
+        @keyframes lion2 {
+            0% {
+                transform: scale(1) rotate(0) translateY(0);
+            }
+
+            15% {
+                transform: scale(1.1) rotate(20deg) translateY(-1%);
+            }
+
+            37% {
+                transform: scale(1.1) rotate(20deg) translateY(-1%);
+            }
+
+            37% {
+                transform: scale(1) rotate(0) translateY(0);
+            }
+        }
+    }
+
+    &.heraldicLily {
+        path:nth-of-type(2) {
+            animation-name: heraldicLily1;
+        }
+
+        path:nth-of-type(3) {
+            animation-name: heraldicLily2;
+        }
+
+        path:nth-of-type(5) {
+            animation-name: heraldicLily3;
+        }
+
+        path:nth-of-type(6) {
+            animation-name: heraldicLily2;
+        }
+
+        path:nth-of-type(7) {
+            animation-name: heraldicLily1;
+        }
+
+        @keyframes heraldicLily1 {
+            0% {
+                transform: rotate(0) scale(1);
+            }
+
+            37% {
+                transform: rotate(-35deg) scale(0.2);
+            }
+
+            75% {
+                transform: rotate(0) scale(1);
+            }
+        }
+
+        @keyframes heraldicLily2 {
+            0% {
+                transform: rotate(0) scale(1);
+            }
+
+            45% {
+                transform: rotate(35deg) scale(0.2);
+            }
+
+            75% {
+                transform: rotate(0) scale(1);
+            }
+        }
+
+        @keyframes heraldicLily3 {
+            0% {
+                transform: scale(1);
+            }
+
+            30% {
+                transform: scale(0.3);
+            }
+
+            45% {
+                transform: scale(1.2);
+            }
+
+            75% {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.bird {
+        path:nth-of-type(2) {
+            animation-name: bird;
+        }
+
+        path:nth-of-type(1) {
+            animation-name: bir2;
+        }
+
+        @keyframes bird {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            22% {
+                transform: rotate(25deg);
+            }
+
+            37% {
+                transform: rotate(-5deg);
+            }
+
+            55% {
+                transform: rotate(15deg);
+            }
+
+            75% {
+                transform: rotate(0deg);
+            }
+        }
+
+        @keyframes bir2 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            37% {
+                transform: rotate(25deg);
+            }
+
+            45% {
+                transform: rotate(-5deg);
+            }
+
+            60% {
+                transform: rotate(15deg);
+            }
+
+            75% {
+                transform: rotate(0deg);
+            }
+        }
+    }
+
+    &.shuriken2,
+    &.shuriken,
+    &.chamomile,
+    &.cratoss {
+        path:nth-of-type(1) {
+            animation-name: shuriken;
+        }
+
+        path:nth-of-type(2) {
+            animation-name: shurikenCenter;
+        }
+
+        @keyframes shuriken {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            15% {
+                transform: rotate(120deg);
+            }
+
+            37% {
+                transform: rotate(-35deg);
+            }
+
+            52% {
+                transform: rotate(90deg);
+            }
+
+            75% {
+                transform: rotate(0deg);
+            }
+        }
+
+        @keyframes shurikenCenter {
+            0% {
+                transform: scale(1);
+            }
+
+            15% {
+                transform: scale(1.2);
+            }
+
+            37% {
+                transform: scale(0.8);
+            }
+
+            52% {
+                transform: scale(1.3);
+            }
+
+            75% {
+                transform: scale(1);
+            }
+        }
+    }
+
+    &.crown {
+        path:nth-of-type(1) {
+            animation-name: crown;
+        }
+
+        path:nth-of-type(2) {
+            animation-name: crown2;
+        }
+
+        @keyframes crown {
+            0% {
+                transform: rotate(0) translateY(0) translateX(0);
+            }
+
+            37% {
+                transform: rotate(15deg) translateY(-5%) translateX(5%);
+            }
+
+            75% {
+                transform: rotate(0) translateY(0) translateX(0);
+            }
+        }
+
+        @keyframes crown2 {
+            0% {
+                opacity: 1;
+            }
+
+            15% {
+                opacity: 0;
+            }
+
+            60% {
+                opacity: 0;
+            }
+
+            67% {
+                opacity: 1;
+            }
+
+            75% {
+                opacity: 1;
+            }
+        }
+    }
+
+    &.cesar {
+        circle {
+            opacity: 0;
+            animation-name: cesarEye;
+        }
+
+        path:nth-of-type(5) {
+            animation-name: cesarPath;
+        }
+
+        @keyframes cesarEye {
+            0% {
+                opacity: 0;
+            }
+
+            5% {
+                opacity: 1;
+            }
+
+            30% {
+                opacity: 0;
+            }
+
+            35% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+
+        @keyframes cesarPath {
+            0% {
+                transform: rotate(0);
+            }
+
+            20% {
+                transform: rotate(5deg);
+            }
+
+            30% {
+                transform: rotate(0);
+            }
+
+            45% {
+                transform: rotate(3deg);
+            }
+
+            50% {
+                transform: rotate(0);
+            }
+        }
+    }
+
+    &.rose {
+        path {
+            animation-name: cesarPath;
+        }
+    }
+
+    &.musonry {
+        path:nth-of-type(2) {
+            animation-name: musonryLeft;
+        }
+
+        path:nth-of-type(3) {
+            animation-name: musonryRight;
+        }
+
+        path:nth-of-type(4),
+        path:nth-of-type(6) {
+            animation-name: musonryRight;
+            animation-delay: 0.2s;
+        }
+
+        path:nth-of-type(5),
+        path:nth-of-type(7) {
+            animation-name: musonryLeft;
+            animation-delay: 0.2s;
+        }
+
+        path:nth-of-type(8) {
+            animation-name: musonryBottom;
+        }
+
+        path:nth-of-type(9),
+        path:nth-of-type(10) {
+            animation-name: musonryBottom;
+            animation-delay: 0.2s;
+        }
+
+        path:nth-of-type(11),
+        path:nth-of-type(12) {
+            animation-name: musonryBottom;
+            animation-delay: 0.4s;
+        }
+
+        path:nth-of-type(13),
+        path:nth-of-type(15) {
+            animation-name: musonryLeft;
+            animation-delay: 0.4s;
+        }
+
+        path:nth-of-type(14),
+        path:nth-of-type(16) {
+            animation-name: musonryRight;
+            animation-delay: 0.4s;
+        }
+
+        @keyframes musonryLeft {
+            0% {
+                transform: translateX(0) translateY(0);
+            }
+
+            25% {
+                transform: translateX(-10%) translateY(-10%);
+            }
+
+            50% {
+                transform: translateX(0) translateY(0);
+            }
+        }
+
+        @keyframes musonryRight {
+            0% {
+                transform: translateX(0) translateY(0);
+            }
+
+            25% {
+                transform: translateX(10%) translateY(-10%);
+            }
+
+            50% {
+                transform: translateX(0) translateY(0);
+            }
+        }
+
+        @keyframes musonryBottom {
+            0% {
+                transform: translateX(0) translateY(0);
+            }
+
+            25% {
+                transform: translateX(0) translateY(10%);
+            }
+
+            50% {
+                transform: translateX(0) translateY(0);
+            }
+        }
+    }
+}

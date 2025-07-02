@@ -1,0 +1,58 @@
+@use '@/css/variables.scss' as vars;
+
+.menu {
+    .menuList {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        li {
+            padding-block: 6px;
+        }
+
+        .link {
+            padding: var(--buttonPadding);
+            color: var(--colorGray);
+            @include vars.navigation;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: transparent;
+            transition: 0.3s ease all;
+
+            &:hover {
+                background-color: var(--colorWhite)
+            }
+
+            span {
+                @include vars.navigation;
+            }
+        }
+    }
+
+    &.mobile {
+        .menuList {
+            align-items: flex-end;
+
+            .link,
+            li {
+                padding: 24px 0px;
+
+                font-size: 36px;
+                letter-spacing: -0.36px;
+            }
+
+            span {
+                font-size: 36px;
+                letter-spacing: -0.36px;
+            }
+        }
+    }
+}
+
+@media (max-width: vars.$tabletSize) {
+    .menu {
+        .menuList li {
+            padding-block: 0;
+        }
+    }
+}

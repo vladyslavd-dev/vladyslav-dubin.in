@@ -1,0 +1,646 @@
+{
+    "rus": {
+        "Once Agency": {
+            "name": "Once Agency",
+            "type": "soon",
+            "link": "https://once.agency",
+            "imgName": "onceAgency",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "Lenis",
+                "ACF",
+                "Masonry",
+                "Other plugins"
+            ]
+        },
+        "Vladyslav Dubinin": {
+            "name": "Vladyslav Dubinin",
+            "type": "github",
+            "link": "https://github.com/vladyslavd-dev",
+            "imgName": "vladyslavDubinin",
+            "stack": [
+                "React",
+                "Redux Toolkit",
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "Lenis",
+                "Vite",
+                "ESLint",
+                "React Router"
+            ]
+        },
+        "Maliuchenko Dental": {
+            "name": "Maliuchenko Dental",
+            "type": "case",
+            "link": "https://stomatolog.dentist/",
+            "imgName": "maliuchenko",
+            "stack": [
+                "React",
+                "Zustand",
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "WordPress REST API",
+                "Lenis",
+                "Vite",
+                "ESLint",
+                "React Router"
+            ]
+        },
+        "Afro Dance": {
+            "name": "Afro Dance",
+            "type": "case",
+            "link": "https://afro-dance-tour.com",
+            "imgName": "afroDance",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP",
+                "PayPal API",
+                "Monobank API",
+                "Other plugins"
+            ]
+        },
+        "Bifrost Studio": {
+            "name": "Bifrost Studio",
+            "type": "case",
+            "link": "https://bifrost-studio.com",
+            "imgName": "bifrost",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript"
+            ]
+        },
+        "Mail scout": {
+            "name": "Mail scout",
+            "type": "case",
+            "link": "https://mail-scout.com/",
+            "imgName": "mailScout",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP",
+                "Monobank API"
+            ]
+        },
+        "The Humanity Funds": {
+            "name": "The Humanity Funds",
+            "type": "case",
+            "link": "https://thehumanityfunds.com/",
+            "imgName": "humanityFunds",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "Other plugins"
+            ]
+        },
+        "Bezdymych": {
+            "name": "Bezdymych",
+            "type": "case",
+            "link": "https://bezdymych.com/",
+            "imgName": "bezdymych",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP"
+            ]
+        },
+        "The budnik": {
+            "name": "The budnik",
+            "type": "case",
+            "link": "https://thebudnik.agency",
+            "imgName": "budnik",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "REST API"
+            ]
+        },
+        "Sundancer": {
+            "name": "Sundancer",
+            "type": "case",
+            "link": "https://seattleboatours.com/",
+            "imgName": "sundancer",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress"
+            ]
+        },
+        "Medtaxi": {
+            "name": "Medtaxi",
+            "type": "case",
+            "link": "https://medtaxi.if.ua/",
+            "imgName": "medtaxi",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress"
+            ]
+        }
+    },
+    "eng": {
+        "Once Agency": {
+            "name": "Once Agency",
+            "type": "soon",
+            "link": "https://once.agency",
+            "imgName": "onceAgency",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "Lenis",
+                "ACF",
+                "Masonry",
+                "Other plugins"
+            ]
+        },
+        "Vladyslav Dubinin": {
+            "name": "Vladyslav Dubinin",
+            "type": "github",
+            "link": "https://github.com/vladyslavd-dev",
+            "imgName": "vladyslavDubinin",
+            "stack": [
+                "React",
+                "Redux Toolkit",
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "Lenis",
+                "Vite",
+                "ESLint",
+                "React Router"
+            ]
+        },
+        "Maliuchenko Dental": {
+            "name": "Maliuchenko Dental",
+            "type": "case",
+            "link": "https://stomatolog.dentist/",
+            "imgName": "maliuchenko",
+            "stack": [
+                "React",
+                "Zustand",
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "WordPress REST API",
+                "Lenis",
+                "Vite",
+                "ESLint",
+                "React Router"
+            ]
+        },
+        "Afro Dance": {
+            "name": "Afro Dance",
+            "type": "case",
+            "link": "https://afro-dance-tour.com",
+            "imgName": "afroDance",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP",
+                "PayPal API",
+                "Monobank API",
+                "Other plugins"
+            ]
+        },
+        "Bifrost Studio": {
+            "name": "Bifrost Studio",
+            "type": "case",
+            "link": "https://bifrost-studio.com",
+            "imgName": "bifrost",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript"
+            ]
+        },
+        "Mail scout": {
+            "name": "Mail scout",
+            "type": "case",
+            "link": "https://mail-scout.com/",
+            "imgName": "mailScout",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP",
+                "Monobank API"
+            ]
+        },
+        "The Humanity Funds": {
+            "name": "The Humanity Funds",
+            "type": "case",
+            "link": "https://thehumanityfunds.com/",
+            "imgName": "humanityFunds",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "Other plugins"
+            ]
+        },
+        "Bezdymych": {
+            "name": "Bezdymych",
+            "type": "case",
+            "link": "https://bezdymych.com/",
+            "imgName": "bezdymych",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP"
+            ]
+        },
+        "The budnik": {
+            "name": "The budnik",
+            "type": "case",
+            "link": "https://thebudnik.agency",
+            "imgName": "budnik",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "REST API"
+            ]
+        },
+        "Sundancer": {
+            "name": "Sundancer",
+            "type": "case",
+            "link": "https://seattleboatours.com/",
+            "imgName": "sundancer",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress"
+            ]
+        },
+        "Medtaxi": {
+            "name": "Medtaxi",
+            "type": "case",
+            "link": "https://medtaxi.if.ua/",
+            "imgName": "medtaxi",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress"
+            ]
+        }
+    },
+    "ukr": {
+        "Once Agency": {
+            "name": "Once Agency",
+            "type": "soon",
+            "link": "https://once.agency",
+            "imgName": "onceAgency",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "Lenis",
+                "ACF",
+                "Masonry",
+                "Other plugins"
+            ]
+        },
+        "Vladyslav Dubinin": {
+            "name": "Vladyslav Dubinin",
+            "type": "github",
+            "link": "https://github.com/vladyslavd-dev",
+            "imgName": "vladyslavDubinin",
+            "stack": [
+                "React",
+                "Redux Toolkit",
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "Lenis",
+                "Vite",
+                "ESLint",
+                "React Router"
+            ]
+        },
+        "Maliuchenko Dental": {
+            "name": "Maliuchenko Dental",
+            "type": "case",
+            "link": "https://stomatolog.dentist/",
+            "imgName": "maliuchenko",
+            "stack": [
+                "React",
+                "Zustand",
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "WordPress REST API",
+                "Lenis",
+                "Vite",
+                "ESLint",
+                "React Router"
+            ]
+        },
+        "Afro Dance": {
+            "name": "Afro Dance",
+            "type": "case",
+            "link": "https://afro-dance-tour.com",
+            "imgName": "afroDance",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP",
+                "PayPal API",
+                "Monobank API",
+                "Other plugins"
+            ]
+        },
+        "Bifrost Studio": {
+            "name": "Bifrost Studio",
+            "type": "case",
+            "link": "https://bifrost-studio.com",
+            "imgName": "bifrost",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript"
+            ]
+        },
+        "Mail scout": {
+            "name": "Mail scout",
+            "type": "case",
+            "link": "https://mail-scout.com/",
+            "imgName": "mailScout",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP",
+                "Monobank API"
+            ]
+        },
+        "The Humanity Funds": {
+            "name": "The Humanity Funds",
+            "type": "case",
+            "link": "https://thehumanityfunds.com/",
+            "imgName": "humanityFunds",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "Other plugins"
+            ]
+        },
+        "Bezdymych": {
+            "name": "Bezdymych",
+            "type": "case",
+            "link": "https://bezdymych.com/",
+            "imgName": "bezdymych",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP"
+            ]
+        },
+        "The budnik": {
+            "name": "The budnik",
+            "type": "case",
+            "link": "https://thebudnik.agency",
+            "imgName": "budnik",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "REST API"
+            ]
+        },
+        "Sundancer": {
+            "name": "Sundancer",
+            "type": "case",
+            "link": "https://seattleboatours.com/",
+            "imgName": "sundancer",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress"
+            ]
+        },
+        "Medtaxi": {
+            "name": "Medtaxi",
+            "type": "case",
+            "link": "https://medtaxi.if.ua/",
+            "imgName": "medtaxi",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress"
+            ]
+        }
+    },
+    "czk": {
+        "Once Agency": {
+            "name": "Once Agency",
+            "type": "soon",
+            "link": "https://once.agency",
+            "imgName": "onceAgency",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "Lenis",
+                "ACF",
+                "Masonry",
+                "Other plugins"
+            ]
+        },
+        "Vladyslav Dubinin": {
+            "name": "Vladyslav Dubinin",
+            "type": "github",
+            "link": "https://github.com/vladyslavd-dev",
+            "imgName": "vladyslavDubinin",
+            "stack": [
+                "React",
+                "Redux Toolkit",
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "Lenis",
+                "Vite",
+                "ESLint",
+                "React Router"
+            ]
+        },
+        "Maliuchenko Dental": {
+            "name": "Maliuchenko Dental",
+            "type": "case",
+            "link": "https://stomatolog.dentist/",
+            "imgName": "maliuchenko",
+            "stack": [
+                "React",
+                "Zustand",
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "WordPress REST API",
+                "Lenis",
+                "Vite",
+                "ESLint",
+                "React Router"
+            ]
+        },
+        "Afro Dance": {
+            "name": "Afro Dance",
+            "type": "case",
+            "link": "https://afro-dance-tour.com",
+            "imgName": "afroDance",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP",
+                "PayPal API",
+                "Monobank API",
+                "Other plugins"
+            ]
+        },
+        "Bifrost Studio": {
+            "name": "Bifrost Studio",
+            "type": "case",
+            "link": "https://bifrost-studio.com",
+            "imgName": "bifrost",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript"
+            ]
+        },
+        "Mail scout": {
+            "name": "Mail scout",
+            "type": "case",
+            "link": "https://mail-scout.com/",
+            "imgName": "mailScout",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP",
+                "Monobank API"
+            ]
+        },
+        "The Humanity Funds": {
+            "name": "The Humanity Funds",
+            "type": "case",
+            "link": "https://thehumanityfunds.com/",
+            "imgName": "humanityFunds",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "Other plugins"
+            ]
+        },
+        "Bezdymych": {
+            "name": "Bezdymych",
+            "type": "case",
+            "link": "https://bezdymych.com/",
+            "imgName": "bezdymych",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress + WooCommerce",
+                "PHP"
+            ]
+        },
+        "The budnik": {
+            "name": "The budnik",
+            "type": "case",
+            "link": "https://thebudnik.agency",
+            "imgName": "budnik",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress",
+                "PHP",
+                "REST API"
+            ]
+        },
+        "Sundancer": {
+            "name": "Sundancer",
+            "type": "case",
+            "link": "https://seattleboatours.com/",
+            "imgName": "sundancer",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress"
+            ]
+        },
+        "Medtaxi": {
+            "name": "Medtaxi",
+            "type": "case",
+            "link": "https://medtaxi.if.ua/",
+            "imgName": "medtaxi",
+            "stack": [
+                "HTML",
+                "CSS + Sass",
+                "JavaScript",
+                "WordPress"
+            ]
+        }
+    }
+}

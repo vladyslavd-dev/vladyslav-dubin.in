@@ -1,0 +1,48 @@
+@use '@/css/variables.scss' as vars;
+
+.cursor {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    scale: 0;
+    overflow: hidden;
+    animation: cursorAnimation forwards 0.1s ease;
+    transform-origin: left;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 16px;
+    background-color: var(--colorBlack);
+    color: var(--colorWhite);
+
+    span {
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    path {
+        fill: var(--colorWhite);
+        @include vars.fontH3;
+    }
+
+    svg {
+        width: 22px;
+        flex-shrink: 0;
+    }
+
+    &.hiding {
+        scale: 1;
+        animation: cursorAnimation 0.1s ease reverse forwards;
+    }
+}
+
+@keyframes cursorAnimation {
+    from {
+        scale: 0;
+    }
+
+    to {
+        scale: 1;
+    }
+}

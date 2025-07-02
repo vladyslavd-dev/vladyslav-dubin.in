@@ -1,0 +1,63 @@
+@use '@/css/variables.scss' as vars;
+
+.switcher {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    button {
+        transition: 0.3s ease all;
+
+        &:hover {
+            background-color: var(--colorWhite);
+        }
+
+        &:nth-of-type(n + 2) {
+            transform: scale(0);
+            filter: blur(4px);
+        }
+    }
+
+    &.active {
+        button {
+            &:nth-of-type(n + 2) {
+                animation: languagesAppearing forwards 0.2s ease;
+            }
+
+            &:nth-of-type(n + 3) {
+                animation-delay: 0.15s;
+            }
+
+            &:nth-of-type(n + 4) {
+                animation-delay: 0.25s;
+            }
+        }
+    }
+}
+
+@keyframes languagesAppearing {
+    0% {
+        transform: scale(0);
+        filter: blur(4px);
+    }
+
+    50% {
+        filter: blur(4px);
+    }
+
+    70% {
+        transform: scale(1.2);
+        filter: blur(0);
+    }
+
+    100% {
+        transform: scale(1);
+        filter: blur(0);
+    }
+}
+
+@media (max-width: vars.$mobileSize) {
+    .switcher {
+        flex-direction: column-reverse;
+    }
+}

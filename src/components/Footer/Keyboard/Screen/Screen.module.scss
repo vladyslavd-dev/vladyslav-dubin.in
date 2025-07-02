@@ -1,0 +1,61 @@
+@use '@/css/variables.scss' as vars;
+
+.screen {
+    position: absolute;
+    width: 48%;
+    aspect-ratio: 347/110;
+    top: 19%;
+    right: 11.2%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    &:hover {
+        .row {
+            color: #43f946;
+        }
+    }
+
+    &.animate {
+        .container {
+            transform: translateY(-100%);
+            transition: 0.3s ease all;
+        }
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        transform: translateY(0);
+        transition: 0s ease all;
+    }
+
+    .row {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 347/110;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #16e71a;
+        transition: 0.3s ease all;
+        cursor: pointer;
+
+        text-shadow: 0px 1px 11.8px rgba(22, 231, 26, 0.43);
+        font-family: Karantina;
+        font-size: 56px;
+        font-weight: 400;
+        line-height: 100%;
+        white-space: nowrap;
+        user-select: none;
+    }
+}
+
+@media (max-width: vars.$mobileSize) {
+    .screen {
+        .row {
+            text-shadow: 0px 0.562px 6.634px rgba(22, 231, 26, 0.43);
+            font-size: 31px;
+        }
+    }
+}

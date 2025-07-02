@@ -1,0 +1,112 @@
+@use '@/css/variables.scss' as vars;
+
+.contactSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding-block: var(--sectionPadding);
+    padding-inline: 1px;
+
+    div {
+        position: relative;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background-color: var(--colorBackground);
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 107px 54px;
+        flex-wrap: wrap;
+        align-items: stretch;
+        padding-top: 40%;
+
+        >* {
+            width: calc(50% - 8px);
+        }
+
+        .annotation {
+            height: 100%;
+        }
+
+        p,
+        a {
+            color: var(--colorBodyText);
+            text-decoration: none;
+            @include vars.bodyM;
+        }
+    }
+}
+
+@media ((min-height: 900px) and (min-width: vars.$mobileSize)) {
+    .contactSection {
+        padding-bottom: var(--stickySectionPadding);
+    }
+}
+
+@media (max-width: vars.$tabletSize) {
+    .contactSection {
+        grid-template-columns: 1fr;
+        gap: 27px;
+
+        h2 {
+            margin-bottom: 252px;
+        }
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        gap: 49px;
+
+        .info {
+            padding-block: 89px 0;
+            row-gap: 79px;
+
+            .annotation {
+                height: auto;
+            }
+
+            p,
+            a {
+                color: var(--colorBodyText);
+                text-decoration: none;
+                @include vars.bodyM;
+            }
+        }
+    }
+}
+
+@media (max-width: vars.$mobileSize) {
+    .contactSection {
+        gap: 20px;
+    }
+
+    .footer {
+        gap: 14px;
+        padding-bottom: 58px;
+        position: relative;
+
+        .info {
+            padding-block: 72px 0;
+            align-items: start;
+
+            .link {
+                position: absolute;
+                bottom: 20px;
+            }
+
+            a.link {
+                right: 0;
+            }
+        }
+    }
+}

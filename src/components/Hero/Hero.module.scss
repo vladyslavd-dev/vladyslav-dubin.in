@@ -1,0 +1,90 @@
+@use '@/css/variables.scss' as vars;
+
+.hero {
+    padding-block: 0 22px;
+
+    &.active {
+        .container {
+            >div {
+                transform: translateY(0);
+            }
+        }
+    }
+
+    .container {
+        align-items: flex-end;
+        justify-content: space-between;
+        display: flex;
+        height: calc(100dvh - 212px);
+        min-height: 700px;
+
+        >div {
+            transform: translateY(100%);
+            transition: 0.6s 0.6s ease all;
+        }
+
+        .text,
+        >img {
+            transform: translateY(-60px)
+        }
+    }
+
+    .text {
+        @include vars.bodyL;
+        width: 226px;
+    }
+}
+
+@media (max-width: vars.$tabletSize) {
+    .hero {
+        height: auto;
+        padding-block: 4px 36px;
+
+        .container {
+            flex-wrap: wrap;
+            row-gap: 48px;
+            column-gap: 29%;
+            height: auto;
+            margin-top: -50px;
+
+            .text,
+            >img {
+                transform: translateY(0)
+            }
+        }
+
+        .text {
+            @include vars.bodyL;
+            width: 257px;
+            order: 1;
+        }
+
+        img {
+            order: 2;
+        }
+    }
+}
+
+@media (max-width: vars.$mobileSize) {
+    .hero {
+        height: calc(100dvh - 62px);
+        padding-block: 0;
+        overflow: hidden;
+        position: relative;
+
+        .container {
+            width: 110%;
+            position: absolute;
+            left: -5%;
+            justify-content: flex-end;
+            margin-top: 0;
+            height: calc(100dvh - 60px);
+            min-height: 300px;
+        }
+
+        img,
+        .text {
+            display: none;
+        }
+    }
+}

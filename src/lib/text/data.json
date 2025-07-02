@@ -1,0 +1,502 @@
+{
+    "eng": {
+        "header": {
+            "menu": [
+                "close",
+                "Portfolio",
+                "Services",
+                "Technology Stack"
+            ],
+            "contact": "Contact"
+        },
+        "hero": {
+            "text": "Hi! I’m a front‑end developer. I’m inspired by pixel‑perfect layouts and the idea that I can code even in my sleep",
+            "watches": [
+                "I started because it felt like magic. A few lines — and something happened. At 17, that was enough: ideas reacted, calculated, appeared on the screen, sometimes even misbehaved. Python became my favorite place to get lost. I wasn’t chasing goals — just enjoying the feeling when everything works",
+                "Over time, code stopped being a toy — it became a tool. I stopped playing and started building: automating small tasks, solving harder problems, giving variables names I’d still understand a week later. Hunting bugs felt like solving puzzles",
+                "Then I discovered frontend",
+                "HTML, CSS, JavaScript — and everything became visible. Code came alive in the interface: click it, interact with it, see the results instantly. Logic and design became one. It truly hooked me.",
+                "I love when blocks are perfectly aligned, the button feels “just right,” and structure fades away, leaving only clarity and simplicity. I write code:",
+                "Not for praise",
+                "Not for applause",
+                "But for that quiet inner click that says:",
+                "Yes, this works exactly as it should"
+            ]
+        },
+        "textsection": {
+            "h2": "About Me",
+            "about": [
+                "I care about structure — not just in code, but in how everything looks on the screen. I like when every margin and button has its purpose, and nothing grabs attention without reason. In frontend, I feel calm, especially when working on something complex, unclear, and bulky. I don’t need awards — a working layout on the first try already feels like an achievement. Something broke? I’m used to it. I just fix it, no drama. That’s the job",
+                "I’ve learned that speed means nothing without quality. I try not to write complicated code — I write code that’s easy to come back to, easy to hand off, and hard to break. I believe users shouldn’t notice the design — they should just feel like everything works as it should. That’s what I aim for. I work with rhythm — purposely break things, test weird edge cases, and rename files more often than I breathe. And yeah — I still feel a small joy whenever something falls perfectly into place or works “out of the box"
+            ],
+            "gennadiy": [
+                "While my classmates were dreaming of new button phones, my dad gave me a PDA — and I started my IT journey before some even touched a mouse",
+                "I learn every day. My brain’s always in upgrade mode: code, tasks, growth. Clean code and clear structure — that’s a must. Bugs don’t stick around long, same as hacks",
+                "P.S. That’s Gennadiy in the photo — my coding partner and sworn enemy of all grumpy neighborhood grandmas"
+            ]
+        },
+        "portfolio": {
+            "coding": {
+                "h2": "Still Coding",
+                "subtitle": [
+                    "Every hour ",
+                    "taught",
+                    " me something — sometimes ",
+                    "on purpose",
+                    ", sometimes the hard way"
+                ],
+                "textsection": [
+                    "I don’t count how many hours I’ve spent coding — but I know one thing: with every new task, it gets easier to see what really works. One project teaches you to slow down. Another reminds you: 'don’t overcomplicate.' Experience isn’t about how many lines of code you write, but about keeping everything stable, clean, and predictable. Every bug leaves a mark — sometimes a lesson, sometimes just a sarcastic note in the code — 'Fix later'",
+                    "I don’t aim for perfection — I aim for clarity. I write code I won’t hate reading next month. It’s not just about making it work — it’s about making it last without surprises. I care about structure, naming, flow — not because it’s elegant, but because it holds. Experience isn’t about status. It’s about staying calm, staying sharp, and making things slightly better than yesterday"
+                ]
+            },
+            "portfolio": {
+                "h2": "Portfolio",
+                "types": [
+                    "List",
+                    "Grid"
+                ],
+                "button": "Watch"
+            }
+        },
+        "services": {
+            "services": {
+                "h2": "Services",
+                "textsection": [
+                    "No ",
+                    "buzzwords",
+                    " Just working code. Full-cycle websites, custom features, smooth frontend, backend wiring, and a bit of ",
+                    "consulting. ",
+                    ". Think of me as your reliable sidekick — minus the ",
+                    "cape"
+                ]
+            },
+            "technologies": {
+                "h2": [
+                    "Technology ",
+                    "stack"
+                ]
+            }
+        },
+        "footer": {
+            "contact": {
+                "h2": "Contact",
+                "form": {
+                    "title": "Make an Inquiry",
+                    "name": "Full Name",
+                    "email": "Your e-mail",
+                    "message": "Your Message",
+                    "button": "Submit"
+                },
+                "succeccForm": {
+                    "title": "Thank you",
+                    "text": "Your message has been sent. I promise to carefully review it and will most likely contact you soon",
+                    "button": "View Portfolio",
+                    "waiting": "One moment..."
+                }
+            },
+            "footer": {
+                "text": {
+                    "titles": [
+                        "Let’s Build Something Cool",
+                        "Clean Code"
+                    ],
+                    "subtitle": "I don’t believe in perfect code — but I still strive for it. Readable, reliable, and not afraid of code reviews",
+                    "footer": [
+                        "© 2025 Vladyslav Dubinin",
+                        "Design – Vadym Pasishnyk"
+                    ]
+                },
+                "keyboard": {
+                    "main": "Available for Work"
+                }
+            }
+        },
+        "meta": {
+            "title": "Vladyslav Dubinin – Frontend Developer",
+            "description": "Frontend portfolio — speed, adaptability, and attention to detail",
+            "keywords": "Vladyslav Dubinin, React developer, JavaScript development, React, portfolio, frontend development, responsive layout",
+            "author": "Vladyslav Dubinin",
+            "locale": "en_US"
+        },
+        "cookie": {
+            "text": "Yes, yes, I also use cookies. Without them, the site won't be so cool. Please click «Accept»",
+            "button": "Accept"
+        }
+    },
+    "rus": {
+        "header": {
+            "menu": [
+                "закрыть",
+                "Работы",
+                "Услуги",
+                "Стэк технологий"
+            ],
+            "contact": "Связаться"
+        },
+        "hero": {
+            "text": "Привет! Я фронтенд‑разработчик. Меня вдохновляют идеально выровненные блоки и мысль о том, что можно кодить даже во сне",
+            "watches": [
+                "Я начал, потому что это казалось магией. Несколько строк — и что-то происходило. В 17 лет этого было достаточно: идеи откликались, считались, появлялись на экране, иногда даже шалили. Python стал моим любимым местом, где можно было заблудиться. Я не гнался за целями — просто наслаждался ощущением, когда всё работает",
+                "Со временем код перестал быть игрушкой — он стал инструментом. Я перестал играть и начал строить: автоматизировать мелочи, решать сложные задачи, давать переменным имена, которые я бы понял и через неделю. Искать ошибки — как решать головоломки",
+                "Потом я открыл для себя фронтенд",
+                "HTML, CSS, JavaScript — и всё стало наглядным. Код оживал в интерфейсе: кликай, взаимодействуй, смотри результат сразу. Логика и дизайн стали единым. Это меня по-настоящему захватило",
+                "Я люблю, когда блоки идеально выровнены, кнопка ощущается 'на своём месте', а структура исчезает, оставляя лишь чистоту и ясность. Пишу код:",
+                "Не ради похвалы",
+                "Не ради аплодисментов",
+                "А ради тихого внутреннего щелчка, который говорит:",
+                "Да, это работает именно так, как должно"
+            ]
+        },
+        "textsection": {
+            "h2": "О себе",
+            "about": [
+                "Мне важна структура — не только в коде, но и в том, как всё выглядит на экране. Люблю, когда у каждого отступа и кнопки есть своя задача, и ничего не лезет на первый план без причины. Во фронтенде я чувствую себя спокойно, особенно когда делаю что-то сложное, непонятное и объёмное. Мне не нужны награды — рабочая верстка с первого раза уже ощущается как достижение. Что-то сломалось? Мне не привыкать. Просто чиню, без драм. Вот такая работа",
+                "Я понял, что скорость — ничего не значит без качества. Я стараюсь не писать сложный код — пишу такой, к которому легко вернуться, легко передать другому и который сложно сломать. Верю, что пользователи не должны замечать дизайн — им просто должно казаться, что всё работает как надо. Вот к чему я стремлюсь. Работаю в ритме - специально ломаю что-то, тестирую странные кейсы и переименовываю файлы чаще, чем дышу. И да — я до сих пор испытываю маленькую радость, когда что-то идеально встаёт на место или работает 'из коробки'"
+            ],
+            "gennadiy": [
+                "Пока одноклассники мечтали о новых кнопочных телефонах, папа подарил мне КПК — и я начал путь в IT раньше, чем некоторые впервые подержали мышку в руках",
+                "Учусь каждый день. Мозг постоянно в режиме апгрейда: код, задачи, развитие. Чистый код и понятная структура — это обязательно. Баги долго не живут, как и костыли",
+                "P.S. Это Геннадий на фото — мой напарник по коду и заклятый враг всех ворчливых соседских бабушек"
+            ]
+        },
+        "portfolio": {
+            "coding": {
+                "h2": "Всё ещё пишу код",
+                "subtitle": [
+                    "Каждый час ",
+                    "учил",
+                    " меня чему‑то — иногда ",
+                    "специально",
+                    ", иногда — по жёсткому сценарию"
+                ],
+                "textsection": [
+                    "Я не считаю, сколько часов провёл за кодом — но знаю одно: с каждой новой задачей всё легче понять, что действительно работает. Один проект учит замедляться. Другой напоминает - 'не усложнять'. Опыт — это не количество строк кода, а умение держать всё стабильным, чистым и предсказуемым. Каждая ошибка оставляет след — иногда урок, иногда просто саркастическую записку в коде - 'Fix later'",
+                    "Я не стремлюсь к совершенству — я стремлюсь к ясности. Пишу код, который не буду ненавидеть через месяц. Важно не только чтобы работало — важно, чтобы работало без сюрпризов. Мне важны структура, имена, логика — не ради красоты, а ради надёжности. Опыт — это не статус. Это умение оставаться спокойным, быть внимательным и делать вещи чуть лучше, чем вчера"
+                ]
+            },
+            "portfolio": {
+                "h2": "Работы",
+                "types": [
+                    "Cписок",
+                    "Cетка"
+                ],
+                "button": "Смотреть"
+            }
+        },
+        "services": {
+            "services": {
+                "h2": "Услуги",
+                "textsection": [
+                    "Без ",
+                    "модных словечек",
+                    " Просто работающий код. Полный цикл создания сайтов, кастомные фичи, плавный фронтенд, настройка бэкенда и немного ",
+                    "консультаций. ",
+                    "Думай обо мне как о надёжном помощнике — только без ",
+                    "плаща"
+                ]
+            },
+            "technologies": {
+                "h2": [
+                    "Стэк ",
+                    "технологий"
+                ]
+            }
+        },
+        "footer": {
+            "contact": {
+                "h2": "Связаться",
+                "form": {
+                    "title": "Оставить заявку",
+                    "name": "Ваше имя",
+                    "email": "Ваш e-mail",
+                    "message": "Ваше сообщение",
+                    "button": "Отправить"
+                },
+                "succeccForm": {
+                    "title": "Спасибо",
+                    "text": "Ваше сообщение отправлено. Я обещаю внимательно его рассмотреть и, скорее всего, свяжусь с вами в ближайшее время",
+                    "button": "Посмотреть портфолио",
+                    "waiting": "Минуточку..."
+                }
+            },
+            "footer": {
+                "text": {
+                    "titles": [
+                        "Давайте сделаем что-то крутое",
+                        "Чистый Код"
+                    ],
+                    "subtitle": "Я не верю в идеальный код — но всё равно к нему стремлюсь. Читаемый, надёжный и не прячется от ревью",
+                    "footer": [
+                        "© 2025 Vladyslav Dubinin",
+                        "Дизайн – Vadym Pasishnyk"
+                    ]
+                },
+                "keyboard": {
+                    "main": "Готов к новым проектам"
+                }
+            }
+        },
+        "meta": {
+            "title": "Vladyslav Dubinin – Frontend Developer",
+            "description": "Фронтенд-портфолио — скорость, адаптивность и внимание к деталям",
+            "keywords": "Владислав Дубинин, React разработчик, JavaScript разработка, React, портфолио, фронтенд разработка, адаптивная вёрстка",
+            "author": "Владислав Дубинин",
+            "locale": "ru_RU"
+        },
+        "cookie": {
+            "text": "Да-да, я использую куки. Без них сайт не будет таким классным. Тыкни «Принять», пожалуйста",
+            "button": "Принять"
+        }
+    },
+    "ukr": {
+        "header": {
+            "menu": [
+                "закрити",
+                "Роботи",
+                "Послуги",
+                "Стек технологій"
+            ],
+            "contact": "Зв’язатися"
+        },
+        "hero": {
+            "text": "Привіт! Я фронтенд-розробник. Мене надихають ідеально вирівняні блоки та думка, що можна кодити навіть уві сні",
+            "watches": [
+                "Я почав, бо це здавалося магією. Кілька рядків — і щось відбувалося. У 17 років цього було достатньо: ідеї відгукувалися, рахувалися, з’являлися на екрані, іноді навіть бешкетували. Python став моїм улюбленим місцем, де можна було загубитися. Я не гнався за цілями — просто насолоджувався відчуттям, коли все працює",
+                "З часом код перестав бути іграшкою — він став інструментом. Я перестав грати і почав будувати: автоматизувати дрібниці, розв’язувати складні задачі, давати змінним імена, які б я зрозумів і через тиждень. Шукати помилки — як розв’язувати головоломки",
+                "Потім я відкрив для себе фронтенд",
+                "HTML, CSS, JavaScript — і все стало наочним. Код оживав в інтерфейсі: клікай, взаємодій, дивись результат одразу. Логіка і дизайн стали єдиним цілим. Це мене по-справжньому захопило",
+                "Я люблю, коли блоки ідеально вирівняні, кнопка відчувається 'на своєму місці', а структура зникає, залишаючи лише чистоту і ясність. Пишу код:",
+                "Не за похвалу",
+                "Не за оплески",
+                "А за тихий внутрішній клацок, який каже:",
+                "Так, це працює саме так, як має бути"
+            ]
+        },
+        "textsection": {
+            "h2": "Про себе",
+            "about": [
+                "Мені важлива структура — не тільки в коді, а й у тому, як все виглядає на екрані. Люблю, коли у кожного відступу і кнопки є своє завдання, і нічого не виходить на перший план без причини. У фронтенді я почуваюся спокійно, особливо коли роблю щось складне, незрозуміле і об’ємне. Мені не потрібні нагороди — робоча верстка з першого разу вже відчувається як досягнення. Щось зламалося? Мені це не вперше. Просто ремонтую, без драм. Ось така робота",
+                "Я зрозумів, що швидкість — нічого не означає без якості. Я намагаюся не писати складний код — пишу такий, до якого легко повернутися, легко передати іншому і який складно зламати. Вірю, що користувачі не повинні помічати дизайн — їм просто має здаватися, що все працює як треба. Ось до чого я прагну. Працюю у ритмі — спеціально ламаю щось, тестую дивні кейси і перейменовую файли частіше, ніж дихаю. І так — я досі відчуваю маленьку радість, коли щось ідеально стає на місце або працює «з коробки»"
+            ],
+            "gennadiy": [
+                "Поки однокласники мріяли про нові кнопкові телефони, тато подарував мені КПК — і я почав свій шлях в IT раніше, ніж дехто вперше взяв мишку до рук",
+                "Вчуся кожен день. Мозок постійно в режимі апгрейда: код, завдання, розвиток. Чистий код і зрозуміла структура — це обов’язково. Баги довго не живуть, як і костилі",
+                "P.S. Це Геннадій на фото — мій напарник по коду і заклятий ворог усіх сварливих сусідських бабусь"
+            ]
+        },
+        "portfolio": {
+            "coding": {
+                "h2": "Все ще пишу код",
+                "subtitle": [
+                    "Кожна година ",
+                    "вчила",
+                    " мене чомусь — іноді ",
+                    "свідомо",
+                    ", іноді — по жорсткому сценарію"
+                ],
+                "textsection": [
+                    "Я не рахую, скільки годин провів за кодом — але знаю одне: з кожним новим завданням все легше зрозуміти, що справді працює. Один проєкт вчить сповільнюватись. Інший нагадує: «не ускладнюй». Досвід — це не кількість рядків коду, а вміння тримати все стабільним, чистим і передбачуваним. Кожна помилка залишає слід — іноді урок, іноді просто саркастичну нотатку в коді — «Fix later»",
+                    "Я не прагну до досконалості — я прагну до ясності. Пишу код, який не буду ненавидіти через місяць. Важливо не тільки, щоб працювало — важливо, щоб працювало без сюрпризів. Для мене важливі структура, імена, логіка — не заради краси, а заради надійності. Досвід — це не статус. Це здатність залишатися спокійним, бути уважним і робити речі трохи кращими, ніж учора"
+                ]
+            },
+            "portfolio": {
+                "h2": "Роботи",
+                "types": [
+                    "Cписок",
+                    "Cітка"
+                ],
+                "button": "Дивитись"
+            }
+        },
+        "services": {
+            "services": {
+                "h2": "Послуги",
+                "textsection": [
+                    "Без ",
+                    "модних слівечок",
+                    " Просто робочий код. Повний цикл створення сайтів, кастомні фічі, плавний фронтенд, налаштування бекенду і трохи ",
+                    "консультацій. ",
+                    "Думай про мене як про надійного помічника — тільки без ",
+                    "плаща"
+                ]
+            },
+            "technologies": {
+                "h2": [
+                    "Стек ",
+                    "технологій"
+                ]
+            }
+        },
+        "footer": {
+            "contact": {
+                "h2": "Зв’язатися",
+                "form": {
+                    "title": "Залишити заявку",
+                    "name": "Ваше ім’я",
+                    "email": "Ваш e-mail",
+                    "message": "Ваше повідомлення",
+                    "button": "Надіслати"
+                },
+                "succeccForm": {
+                    "title": "Дякую",
+                    "text": "Ваше повідомлення надіслано. Обіцяю уважно його розглянути і, скоріш за все, зв'яжусь з вами найближчим часом",
+                    "button": "Переглянути портфоліо",
+                    "waiting": "Хвилинку..."
+                }
+            },
+            "footer": {
+                "text": {
+                    "titles": [
+                        "Зробімо щось круте",
+                        "Чистий код"
+                    ],
+                    "subtitle": "Я не вірю в ідеальний код — але все одно до нього прагну. Читабельний, надійний і не ховається від ревʼю",
+                    "footer": [
+                        "© 2025 Vladyslav Dubinin",
+                        "Дизайн – Vadym Pasishnyk"
+                    ]
+                },
+                "keyboard": {
+                    "main": "Відкритий до нового"
+                }
+            }
+        },
+        "meta": {
+            "title": "Владислав Дубінін – Фронтенд-розробник",
+            "description": "Фронтенд-портфоліо — швидкість, адаптивність та увага до деталей",
+            "keywords": "Владислав Дубінін, розробник React, JavaScript розробка, React, портфоліо, фронтенд розробка, адаптивна верстка",
+            "author": "Владислав Дубінін",
+            "locale": "uk_UA"
+        },
+        "cookie": {
+            "text": "Так-так, я теж використовую куки. Без них сайт не буде таким класним. Натисни «Прийняти», будь ласка",
+            "button": "Прийняти"
+        }
+    },
+    "czk": {
+        "header": {
+            "menu": [
+                "zavřít",
+                "Projekty",
+                "Služby",
+                "Technologický stack"
+            ],
+            "contact": "Kontaktovat"
+        },
+        "hero": {
+            "text": "Ahoj! Jsem frontendový vývojář. Inspirují mě dokonale zarovnané bloky a myšlenka, že se dá kódovat i ze sna",
+            "watches": [
+                "Začal jsem, protože to připomínalo magii. Pár řádků — a něco ožilo. V 17 letech to stačilo: nápady reagovaly, počítaly, objevovaly se na obrazovce, někdy i zlobily. Python se stal mým oblíbeným místem pro bloudění. Nehonil jsem se za cíli — prostě jsem si užíval, když všechno fungovalo",
+                "Časem kód přestal být hračkou — stal se nástrojem. Přestal jsem si hrát a začal stavět: automatizovat drobnosti, řešit složitější věci, dávat proměnným názvy, kterým bych rozuměl i za týden. Hledat chyby bylo jako řešit hádanky",
+                "Pak jsem objevil frontend",
+                "HTML, CSS, JavaScript — a všechno se stalo hmatatelným. Kód ožíval v rozhraní: klikni, interaguj, sleduj výsledek hned. Logika a design splynuly — a já byl chycen",
+                "Miluju, když jsou bloky přesně zarovnané, tlačítko je 'na svém místě' a struktura mizí, zůstává jen čistota a jasnost. Píšu kód:",
+                "Ne kvůli chvále",
+                "Ne kvůli potlesku",
+                "Ale kvůli tichému vnitřnímu cvaknutí, které říká:",
+                "Jo, takhle to má přesně fungovat"
+            ]
+        },
+        "textsection": {
+            "h2": "O mně",
+            "about": [
+                "Dbám na strukturu — nejen v kódu, ale i v tom, jak všechno vypadá na obrazovce. Mám rád, když každý odsazení a tlačítko mají svůj úkol a nic nevystupuje na první místo bez důvodu. Ve frontendu se cítím v klidu, obzvlášť když dělám něco složitého, nejasného a rozsáhlého. Nepotřebuji ocenění — fungující layout napoprvé je už úspěch. Něco se rozbilo? Nejsem na to nový. Jednoduše to opravím, bez dramat. Taková je práce",
+                "Pochopil jsem, že rychlost nic neznamená bez kvality. Snažím se nepíšeme složitý kód — píšu takový, ke kterému se snadno vrátím, snadno předám dál a který se těžko rozbije. Věřím, že uživatelé by design neměli vnímat — měli by jen mít pocit, že všechno funguje, jak má. To je můj cíl. Pracuji v rytmu — úmyslně něco rozbiju, testuji zvláštní případy a přejmenovávám soubory častěji, než bych chtěl. A ano — pořád mě potěší, když něco dokonale zapadne na místo nebo funguje 'hned po vybalení'"
+            ],
+            "gennadiy": [
+                "Zatímco spolužáci snili o nových tlačítkových telefonech, táta mi daroval PDA — a já začal svou cestu v IT dřív, než někteří vůbec drželi myš v rukou",
+                "Učím se každý den. Mozek je pořád v režimu upgradu: kód, úkoly, rozvoj. Čistý kód a přehledná struktura jsou povinností. Chyby dlouho nepřežijí, stejně jako rychlá řešení",
+                "P.S. To je Gennadij na fotce — můj parťák na kódování a zapřísáhlý nepřítel všech protivných sousedských babiček"
+            ]
+        },
+        "portfolio": {
+            "coding": {
+                "h2": "Stále píšu kód",
+                "subtitle": [
+                    "Každá hodina ",
+                    "mě naučila",
+                    " něco — někdy ",
+                    "úmyslně",
+                    ", jindy — tvrdou cestou"
+                ],
+                "textsection": [
+                    "Nespočítal jsem, kolik hodin jsem strávil kódováním — ale vím jedno: s každým novým úkolem je snadnější pochopit, co skutečně funguje. Jeden projekt tě naučí zpomalit. Jiný ti připomene, že není třeba to komplikovat. Zkušenost není o počtu řádků kódu, ale o schopnosti udržet vše stabilní, čisté a předvídatelné. Každá chyba zanechá stopu — někdy lekci, jindy jen sarkastickou poznámku v kódu - 'Fix later'",
+                    "Nepřipouštím si dokonalost — usiluji o jasnost. Píšu kód, který mě nebude za měsíc otravovat. Není důležité jen aby to fungovalo — ale aby to fungovalo bez překvapení. Záleží mi na struktuře, názvech a logice — ne kvůli kráse, ale kvůli spolehlivosti. Zkušenost není o statusu. Je to o schopnosti zůstat klidný, být pozorný a dělat věci o něco lépe než včera"
+                ]
+            },
+            "portfolio": {
+                "h2": "Projekty",
+                "types": [
+                    "Seznam",
+                    "Mřížka"
+                ],
+                "button": "Zobrazit"
+            }
+        },
+        "services": {
+            "services": {
+                "h2": "Služby",
+                "textsection": [
+                    "Bez ",
+                    "módních slovíček",
+                    " Jen fungující kód. Kompletní tvorba webů, custom funkce, plynulý frontend, nastavení backendu a trochu ",
+                    "poradenství. ",
+                    "Mysli na mě jako na spolehlivého parťáka — jen bez ",
+                    "pláště"
+                ]
+            },
+            "technologies": {
+                "h2": [
+                    "Technologický ",
+                    "stack"
+                ]
+            }
+        },
+        "footer": {
+            "contact": {
+                "h2": "Kontakt",
+                "form": {
+                    "title": "Zanechat žádost",
+                    "name": "Vaše jméno",
+                    "email": "Váš e-mail",
+                    "message": "Vaše zpráva",
+                    "button": "Odeslat"
+                },
+                "succeccForm": {
+                    "title": "Děkuji",
+                    "text": "Vaše zpráva byla odeslána. Slibuji, že ji pečlivě prostuduji a pravděpodobně vás brzy kontaktuji",
+                    "button": "Zobrazit portfolio",
+                    "waiting": "Chvíli prosím..."
+                }
+            },
+            "footer": {
+                "text": {
+                    "titles": [
+                        "Pojďme vytvořit něco skvělého",
+                        "Čistý kód"
+                    ],
+                    "subtitle": "Nevěřím na dokonalý kód — ale i tak se o něj snažím. Čitelný, spolehlivý a nebojí se revize",
+                    "footer": [
+                        "© 2025 Vladyslav Dubinin",
+                        "Design – Vadym Pasishnyk"
+                    ]
+                },
+                "keyboard": {
+                    "main": "Připraven na novému"
+                }
+            }
+        },
+        "meta": {
+            "title": "Vladyslav Dubinin – Frontend vývojář",
+            "description": "Frontend portfolio — rychlost, přizpůsobivost a důraz na detail",
+            "keywords": "Vladyslav Dubinin, React vývojář, JavaScript vývoj, React, portfolio, frontend vývoj, responzivní design",
+            "author": "Vladyslav Dubinin",
+            "locale": "cs_CZ"
+        },
+        "cookie": {
+            "text": "Jo, Jo, také používám cookies. Bez nich by stránka nebyla tak skvělá. Klikni prosím na «Přijmout»",
+            "button": "Přijmout"
+        }
+    }
+}

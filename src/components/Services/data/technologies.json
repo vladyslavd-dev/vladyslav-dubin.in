@@ -1,0 +1,58 @@
+{
+    "rus": {
+        "Это база": [
+            "HTML5, CSS3, Sass",
+            "JavaScript (ES6+)",
+            "React 19, Redux Toolkit, React Router",
+            "Vite, NPM, Git"
+        ],
+        "Это дополнительно": [
+            "REST API, ESLint, Prettier",
+            "Figma, Adobe XD",
+            "WordPress",
+            "Ну, и еще пару мелочей"
+        ]
+    },
+    "eng": {
+        "This is the base": [
+            "HTML5, CSS3, Sass",
+            "JavaScript (ES6+)",
+            "React 19, Redux Toolkit, React Router",
+            "Vite, NPM, Git"
+        ],
+        "This is additional": [
+            "REST API, ESLint, Prettier",
+            "Figma, Adobe XD",
+            "WordPress",
+            "And a couple more little things"
+        ]
+    },
+    "czk": {
+        "Toto je základ": [
+            "HTML5, CSS3, Sass",
+            "JavaScript (ES6+)",
+            "React 19, Redux Toolkit, React Router",
+            "Vite, NPM, Git"
+        ],
+        "Toto je doplňkové": [
+            "REST API, ESLint, Prettier",
+            "Figma, Adobe XD",
+            "WordPress",
+            "A ještě pár drobností"
+        ]
+    },
+    "ukr": {
+        "Це база": [
+            "HTML5, CSS3, Sass",
+            "JavaScript (ES6+)",
+            "React 19, Redux Toolkit, React Router",
+            "Vite, NPM, Git"
+        ],
+        "Це додатково": [
+            "REST API, ESLint, Prettier",
+            "Figma, Adobe XD",
+            "WordPress",
+            "Ну, і ще пару дрібниць"
+        ]
+    }
+}

@@ -1,0 +1,123 @@
+@use '@/css/variables.scss' as vars;
+
+html {
+    overflow: hidden;
+    min-width: 402px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+body {
+    background-color: var(--colorBackground);
+    font-family: "Inter";
+    font-weight: var(--FWDefault);
+    width: 1396px;
+    margin-inline: auto;
+    min-width: 370px;
+
+    * {
+        color: var(--colorBlack);
+    }
+
+    h2 {
+        @include vars.fontH2;
+        margin-bottom: 72px;
+    }
+
+    h3 {
+        @include vars.fontH3;
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    span {
+        color: inherit;
+    }
+
+    .commonContainer {
+        padding: var(--textBlockPadding);
+        background-color: var(--colorWhite);
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section>div:nth-of-type(2),
+    section>footer {
+        position: relative;
+        z-index: 1;
+        min-height: 75dvh;
+    }
+
+    section>div {
+        background-color: var(--colorBackground);
+    }
+
+    .screenAnimation {
+        width: 100dvw;
+        height: 100dvh;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: var(--colorBlack);
+        z-index: 99999;
+        opacity: 1;
+        transition: 0.6s 0.4s ease all;
+        pointer-events: none;
+
+        .inner {
+            width: 150%;
+            height: 100%;
+            transform: translateY(-130%) rotate(10deg);
+            transition: 0.6s ease all;
+            background-color: var(--colorBackground);
+        }
+
+        &.active {
+            opacity: 0;
+
+            .inner {
+                transform: translateY(0) rotate(0);
+            }
+        }
+    }
+}
+
+@media ((min-height: 900px) and (min-width: vars.$mobileSize)) {
+    body {
+        section>div:nth-of-type(1) {
+            position: sticky;
+            top: 0;
+        }
+    }
+}
+
+@media (max-width: vars.$tabletSize) {
+    body {
+        width: calc(100% - 40px);
+    }
+}
+
+@media (max-width: vars.$mobileSize) {
+    body {
+        width: calc(100% - 32px);
+
+        h2 {
+            margin-bottom: 56px;
+        }
+
+        h3 {
+            margin-top: 16px;
+        }
+    }
+}
+
+@media (hover: none) and (pointer: coarse) {
+    html {
+        overflow: visible;
+    }
+}

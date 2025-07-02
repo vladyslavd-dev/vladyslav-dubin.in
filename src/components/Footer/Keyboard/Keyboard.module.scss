@@ -1,0 +1,67 @@
+@use '@/css/variables.scss' as vars;
+
+.container {
+  position: relative;
+  align-self: end;
+  overflow: hidden;
+
+  .keysContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    aspect-ratio: 2 / 1;
+    width: 85%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% + 10px);
+    transform: translateX(-50%) translateY(-50px);
+    overflow: hidden;
+    box-sizing: initial;
+    padding: 7%;
+  }
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .container .keysContainer {
+      transform: translateX(-50%) translateY(60px);
+    }
+  }
+}
+
+
+@media (max-width: vars.$tabletSize) {
+  .container {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: vars.$mobileSize) {
+  .container {
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    .keysContainer {
+      transform: translateX(calc(-50% - 5px)) translateY(-30px);
+    }
+  }
+}
+
+
+@media (max-width: vars.$mobileSize) {
+  @media not all and (min-resolution: 0.001dpcm) {
+    @supports (-webkit-appearance: none) {
+      .container {
+        .keysContainer {
+          transform: translateX(calc(-50% - 5px)) translateY(20px);
+        }
+      }
+    }
+  }
+}
