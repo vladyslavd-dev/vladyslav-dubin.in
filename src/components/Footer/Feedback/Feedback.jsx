@@ -13,7 +13,7 @@ const Feedback = ({ text, lenis }) => {
 
   return (
     <form className={classes.form} onSubmit={handleSubmit} noValidate>
-      <Icon type="Chamomile" />
+      <Icon type="chamomile" />
       <h3>{text.contact.form.title}</h3>
 
       <FormInput
