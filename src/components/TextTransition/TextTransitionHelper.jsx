@@ -1,3 +1,5 @@
+import React from "react";
+
 export const splitText = (text, classes) => {
     const words = text.split(" ");
 
@@ -17,13 +19,14 @@ export const splitText = (text, classes) => {
         );
     } else {
         return words.map((word, index) => (
-            <span
-                style={{ transitionDelay: `${index * 10 + 400}ms` }}
-                key={index}
-                className={classes.word}
-            >
-                {word}&nbsp;
-            </span>
+            <React.Fragment key={index}>
+                <span
+                    style={{ transitionDelay: `${index * 10 + 400}ms` }}
+                    className={classes.word}
+                >
+                    {word}
+                </span>{" "}
+            </React.Fragment> 
         ));
     }
 };

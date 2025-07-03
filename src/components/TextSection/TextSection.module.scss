@@ -9,12 +9,17 @@
     .textSmall {
         display: flex;
         gap: 20px;
+
+        >div{
+            width: 50%;
+        }
     }
 
     .text {
         @include vars.bodyM;
         color: var(--colorBodyText);
         margin-top: 20px;
+        text-align: justify;
     }
 }
 
@@ -31,6 +36,7 @@
     .title {
         @include vars.fontTitle;
         margin-bottom: 1em;
+        text-align: justify;
 
         &:last-of-type {
             span {

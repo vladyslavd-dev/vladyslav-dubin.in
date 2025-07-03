@@ -35,9 +35,6 @@ const iconMap = {
 };
 
 const Icon = ({ type }) => {
-    console.log(classes)
-
-
     const Component = iconMap[type] || Pigeon;
 
     if (type === 'swords') {

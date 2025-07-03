@@ -37,10 +37,14 @@
         display: flex;
         gap: 20px;
 
+        >div{
+            width: 50%;
+        }
         p {
             color: var(--colorBodyText);
             margin-top: 20px;
             @include vars.bodyM;
+            text-align: justify;
         }
     }
 }
