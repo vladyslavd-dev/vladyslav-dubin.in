@@ -9,10 +9,7 @@ import policyEn from '@/assets/policy/policy_en.pdf';
 import policyRu from '@/assets/policy/policy_ru.pdf';
 import policyCz from '@/assets/policy/policy_cz.pdf';
 
-import CVUa from '@/assets/CV/Dubinin_CV_UA.pdf';
-import CVEn from '@/assets/CV/Dubinin_CV_EN.pdf';
-import CVRu from '@/assets/CV/Dubinin_CV_RU.pdf';
-import CVCz from '@/assets/CV/Dubinin_CV_CZ.pdf';
+import CV from '@/assets/CV/dubinin_en.pdf';
 
 const policies = {
     eng: policyEn,
@@ -21,15 +18,7 @@ const policies = {
     urk: policyUa,
 };
 
-const cvs = {
-    eng: CVEn,
-    rus: CVRu,
-    czk: CVCz,
-    urk: CVUa,
-};
-
 const getPolicyLink = (lang) => policies[lang] || policyEn;
-const getCVLink = (lang) => cvs[lang] || CVEn;
 
 export const useKeyLogic = (props) => {
     const [isClicked, setIsClicked] = useState(false);
@@ -50,7 +39,7 @@ export const useKeyLogic = (props) => {
                     window.open(getPolicyLink(currentLanguage), '_blank');
                     break;
                 case "CV":
-                    window.open(getCVLink(currentLanguage), '_blank');
+                    window.open(CV, '_blank');
                     break;
                 case "#contact":
                     props.lenis.scrollTo("#contact", { duration: 2, offset: -700 });
