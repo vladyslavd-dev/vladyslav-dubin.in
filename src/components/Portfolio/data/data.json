@@ -41,6 +41,7 @@
             "imgName": "maliuchenko",
             "stack": [
                 "React",
+                "Next.js",
                 "Zustand",
                 "HTML",
                 "CSS + Sass",
@@ -49,8 +50,7 @@
                 "WordPress REST API",
                 "Lenis",
                 "Vite",
-                "ESLint",
-                "React Router"
+                "ESLint"
             ]
         },
         "Afro Dance": {
@@ -202,6 +202,7 @@
             "imgName": "maliuchenko",
             "stack": [
                 "React",
+                "Next.js",
                 "Zustand",
                 "HTML",
                 "CSS + Sass",
@@ -210,8 +211,7 @@
                 "WordPress REST API",
                 "Lenis",
                 "Vite",
-                "ESLint",
-                "React Router"
+                "ESLint"
             ]
         },
         "Afro Dance": {
@@ -363,6 +363,7 @@
             "imgName": "maliuchenko",
             "stack": [
                 "React",
+                "Next.js",
                 "Zustand",
                 "HTML",
                 "CSS + Sass",
@@ -371,8 +372,7 @@
                 "WordPress REST API",
                 "Lenis",
                 "Vite",
-                "ESLint",
-                "React Router"
+                "ESLint"
             ]
         },
         "Afro Dance": {
@@ -524,6 +524,7 @@
             "imgName": "maliuchenko",
             "stack": [
                 "React",
+                "Next.js",
                 "Zustand",
                 "HTML",
                 "CSS + Sass",
@@ -532,8 +533,7 @@
                 "WordPress REST API",
                 "Lenis",
                 "Vite",
-                "ESLint",
-                "React Router"
+                "ESLint"
             ]
         },
         "Afro Dance": {
